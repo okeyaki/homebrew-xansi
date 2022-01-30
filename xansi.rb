@@ -4,8 +4,8 @@ class Xansi < Formula
   desc("A CLI tool to remove ANSI escape sequences.")
   homepage("https://github.com/okeyaki/xansi")
   license("MIT")
-  url("https://github.com/okeyaki/xansi/releases/download/0.1.0/xansi-x86_64-apple-darwin.tar.gz")
-  sha256("a829b44148691f165203a9e91afa42fc954fc79e0790965ba3e27ccb80929910")
+  url("https://github.com/okeyaki/xansi/releases/download/0.2.0/xansi-x86_64-apple-darwin.tar.gz")
+  sha256("c9550ea2bbde0be757d914e9882268850806889353e54ccc6abd61a2a029155b")
 
   def install
     bin.install("xansi")
